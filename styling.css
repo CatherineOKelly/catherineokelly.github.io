@@ -52,6 +52,7 @@ img {
   margin: 0px;
 }
 
+/* this is the code for a transparent bar at the bottom of the intro photo for the caption, if I include one
 .caption {
   background-color: rgba(250, 250, 250, 0.65);
   padding: 5px 10px;
@@ -60,6 +61,13 @@ img {
   left: 50%;
   margin-left: -155px;
   width: 310px;
+}
+*/
+
+#blurb {
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 #password-form {
@@ -70,14 +78,15 @@ img {
 
 #password-form button {
   color: #3D5167;
-  padding: 10px;
+  padding: 10px 15px;
+  margin-left: 10px;
   font-size: 0.8em;
   border-radius: 5px;
 }
 
 #password {
   padding: 10px;
-  margin-right: 5px;
+  width: 150px;
 }
 
 #content {
@@ -117,7 +126,7 @@ a.btn:hover {
   text-decoration: underline;
 }
 
-#playing, #trouble, #safe, #routine, #feeding, #Feed-back, #Photo-gallery {
+#name, #playing, #trouble, #safe, #routine, #feeding, #Feed-back, #Photo-gallery {
   border-bottom: 3px solid #e7e6e6;
 }
 

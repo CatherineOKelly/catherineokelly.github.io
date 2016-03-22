@@ -3,7 +3,7 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="styling.css">
 		<script   src="https://code.jquery.com/jquery-2.2.2.min.js"   integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
-		<meta name="viewport" content="width=device-width, initial-scale=0.8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>BorrowOurBaby.com</title>
 	</head>
 
@@ -15,19 +15,26 @@
 			<div id="intro">
 				<img src="images/RafeCowboy.jpg" alt="Photo of baby Rafe">
 				<span class="caption">
-				Rafe O'Kelly<br>
-				Born 25 September 2015<br>
+					<!--this is where I could add back in a caption, eg baby name and DOB, at the bottom of the intro photo-->
 				</span>
 			</div>
 
 			<div id="password-form">
+				<p id="blurb">
+					The website that helps you tell friends, family and childminders all about looking after your little one...<br>... so they can <strong>borrow your baby</strong> while you have a break!
+				</p>
 				<form>
 					<input id="password" type="password">
-					<button id="login">Login</button>
+					<button id="login">Baby's name</button>
 				</form>
 			</div>
 
 			<div id="content" class="hidden">
+
+				<div id="name">
+					<h2>Introduction</h2>
+					<p>Name: Rafe O'Kelly<br>Born: 25 September 2015</p>
+				</div>
 
 				<div id="playing">
 					<h2>Playtime</h2>
