@@ -7,7 +7,7 @@ $('#password-form form').on('submit', function(event) {
 		$("#password-form").toggleClass("hidden")
 	}
 	else{
-		alert("Wrong Password!")
+		alert("We don't yet have an account for your baby!")
 	}
 });
 

@@ -8,13 +8,15 @@ header {
   background-color: #e7e6e6;
   border-bottom: 1px solid #e7e6e6;
   text-align: center;
-  position: fixed;
-  width: 100%;
-  z-index: 99;
+  max-width: 310px;
   padding-top: 8px;
   padding-bottom: 8px;
-  margin-top: -10px;
-  margin-left: -10px;
+  margin:  -10px auto 0px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+/* the code to keep the header in fixed position, if wanted
+  position: fixed;
+  z-index: 99;*/
 }
 
 h1 {  
@@ -41,7 +43,6 @@ img {
 } 
 
 #intro {
-  padding-top: 55px;
   font-size: 1em;
   text-align: center;
 }
@@ -67,21 +68,33 @@ img {
 #blurb {
   font-style: italic;
   text-align: center;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#instruct {
+  color: #C0C0C0;
+  font-size: 0.9em;
+  margin-bottom: 0px;
 }
 
 #password-form {
   width: 310px;
   margin: 0 auto;
-  padding-top: 20px;
 }
 
 #password-form button {
   color: #3D5167;
+  background-color: #e7e6e6;
+  box-shadow: 2px 2px 4px #4e4c80;
   padding: 10px 15px;
   margin-left: 10px;
   font-size: 0.8em;
   border-radius: 5px;
+}
+
+#password-form button:hover {
+  box-shadow: 1px 1px 2px #4e4c80 inset;
 }
 
 #password {
